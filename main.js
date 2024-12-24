@@ -1,9 +1,13 @@
 let lua = document.getElementById('lua')
 let body = document.querySelector('body')
+let dado = document.getElementById("dados")
+let front = document.getElementById("front")
 
 
 lua.addEventListener('click', ()=>{
     body.classList.toggle('dark')
+    dado.classList.toggle('dark')
+    front.classList.toggle('dark')
     if (lua.classList.contains('fa-moon')) {
         lua.classList.remove('fa-moon');
         lua.classList.add('fa-sun');

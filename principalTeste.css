@@ -1,3 +1,8 @@
+* {
+  font-family: "Rubic", serif;
+}
+
+
 .body {
     background: rgb(171, 169, 169);
     transition: .5s;
@@ -22,9 +27,11 @@
 }
 
 .topnav {
-    
+    position: fixed;
     background-color: #333;
+    width: 90%;
     overflow: hidden;
+    margin-left: 5%;
   }
 
 .topnav a {
@@ -67,11 +74,29 @@ body.dark{
 }
 
 .dados {
-  margin-top: 15%;
-  margin-left: 7%;
+  margin-top: 20%;
+  margin-left: 15%;
+  display: inline-block;
+}
+
+.dadinhos {
   display: flex;
-  text-align: center;
-  justify-content: left;
+  flex-direction: column;
+}
+
+.fotinha {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  margin-left: 240%;
+  margin-top: -40%;
+}
+
+.icone {
+  width: 220px;
+  height: 220px;
+  display: flex;
+  border-radius: 50%;
 }
 
 .dados.dark{
@@ -82,10 +107,19 @@ body.dark{
 .front {
   color: #023a41;
   display: flex;
-  text-align: center;
+  margin-left: 25%;
+  margin-top: -5%;
   align-items: center;
-  justify-content: center;
+  display: inline;
 
+}
+
+.tec {
+  text-align: center;
+}
+
+.tec.dark {
+  color: #078a9c;
 }
 
 .front.dark {

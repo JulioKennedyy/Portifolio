@@ -130,3 +130,62 @@ body.dark{
 .linha {
   margin-top: 15%;
 }
+
+.linguagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.python {
+  display: flex;
+  background-color: transparent;
+  height: 10%;
+  width: 10%;
+  margin-left: 12px;
+}
+
+.python:hover {
+  scale: 120%;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.javascript {
+  background-color: transparent;
+  height: 8%;
+  width: 8%;
+  margin-right: 6px;
+}
+
+.javascript:hover {
+  scale: 120%;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.hhtml {
+  background-color: transparent;
+  height: 6%;
+  width: 6%;
+  margin-left: 5px;
+}
+
+.hhtml:hover {
+  scale: 120%;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.csss {
+  background-color: transparent;
+  height: 6%;
+  width: 6%;
+  margin-left: 20px;
+}
+
+.csss:hover {
+  scale: 120%;
+  transition: 1s;
+  cursor: pointer;
+}

@@ -137,55 +137,173 @@ body.dark{
   justify-content: center;
 }
 
-.python {
+.bloco_1 {
+  position: relative;
+  text-align: center;
+  background-color: #212121;
+  width: 10rem;
+  aspect-ratio: 1;
+  padding: 0;
   display: flex;
-  background-color: transparent;
-  height: 10%;
-  width: 10%;
-  margin-left: 12px;
-}
-
-.python:hover {
-  scale: 120%;
-  transition: 1s;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 2.5rem;
   cursor: pointer;
+  transition: 0.2s;
 }
 
-.javascript {
-  background-color: transparent;
-  height: 8%;
-  width: 8%;
-  margin-right: 6px;
+.bloco_1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0.3rem;
+  background-image: linear-gradient(90deg, #034d57 0%, #048596 92.32%);
+  bottom: -0.1rem;
+  left: 0;
 }
 
-.javascript:hover {
-  scale: 120%;
-  transition: 1s;
+.bloco_1 i:hover {
+  text-shadow: #787878 1px 1px 2px;
+  transition: 0.5s;
+}
+
+.palavra {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #034d57;
+  margin-bottom: 1.5rem;
+}
+
+.class.dark {
+  color: #1de5ff;
+  transition: .5s;
+}
+
+#python {
+  font-size: 500%;
+  color:#110f0f;
+  width: 4rem;
+}
+
+.linguagens {
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+}
+
+.linguagens p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #034d57;
+  margin-bottom: 1.5rem;
+}
+
+.linguagens i {
+  font-size: 500%;
+  color:#110f0f;
+  width: 4rem;
+}
+
+.linguagens i:hover {
+  text-shadow: #5b5b5b 1px 1px 2px;
+  transition: 0.5s;
+}
+
+.bloco_1 {
+  position: relative;
+  text-align: center;
+  background-color: #212121;
+  width: 10rem;
+  aspect-ratio: 1;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 2.5rem;
   cursor: pointer;
+  transition: 0.2s;
 }
 
-.hhtml {
-  background-color: transparent;
-  height: 6%;
-  width: 6%;
-  margin-left: 5px;
+.bloco_1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0.3rem;
+  background-image: linear-gradient(90deg, #034d57 0%, #048596 92.32%);
+  bottom: -0.1rem;
+  left: 0;
 }
 
-.hhtml:hover {
-  scale: 120%;
-  transition: 1s;
+.palavra {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #034d57;
+  margin-bottom: 1.5rem;
+}
+
+
+.bloco_2 {
+  position: relative;
+  text-align: center;
+  background-color: #212121;
+  width: 10rem;
+  aspect-ratio: 1;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 2.5rem;
   cursor: pointer;
+  transition: 0.2s;
+  margin-left: 250%;
+  margin-top: -100%;
 }
 
-.csss {
-  background-color: transparent;
-  height: 6%;
-  width: 6%;
-  margin-left: 20px;
+.bloco_2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0.3rem;
+  background-image: linear-gradient(90deg, #034d57 0%, #048596 92.32%);
+  bottom: -0.1rem;
+  left: 0;
 }
 
-.csss:hover {
-  scale: 120%;
-  transition: 1s;
+.bloco_3 {
+  position: relative;
+  text-align: center;
+  background-color: #212121;
+  width: 10rem;
+  aspect-ratio: 1;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 2.5rem;
   cursor: pointer;
+  transition: 0.2s;
+  margin-left: 15%;
+  margin-top: 0%;
 }
+
+.bloco_3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0.3rem;
+  background-image: linear-gradient(90deg, #034d57 0%, #048596 92.32%);
+  bottom: -0.1rem;
+  left: 0;
+}
+

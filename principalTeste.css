@@ -1,5 +1,5 @@
 * {
-  font-family: "Rubic", serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -32,6 +32,7 @@
     width: 90%;
     overflow: hidden;
     margin-left: 5%;
+    z-index: 1;
   }
 
 .topnav a {
@@ -116,6 +117,9 @@ body.dark{
 
 .tec {
   text-align: center;
+  font-size: 2.5rem;
+  margin: 5rem;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .tec.dark {
@@ -190,16 +194,23 @@ body.dark{
 
 .linguagens {
   display: flex;
-  gap: 1rem;
+  z-index: -2;
   justify-content: center;
+  margin: 2rem;
+  padding-left: 2rem;
+  z-index: 0;
 }
 
 .linguagens p {
   font-family: 'DM Sans', sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
-  color: #034d57;
+  color: #078a9c;
   margin-bottom: 1.5rem;
+}
+
+.linguagens p.dark {
+  color: #078a9c;
 }
 
 .linguagens i {
@@ -302,7 +313,7 @@ body.dark{
   border-top-left-radius: 2.5rem;
   cursor: pointer;
   transition: 0.2s;
-  margin-left: 15%;
+  margin-left: 15rem;
   margin-top: 0%;
 }
 
@@ -336,7 +347,7 @@ body.dark{
   border-top-left-radius: 2.5rem;
   cursor: pointer;
   transition: 0.2s;
-  margin-left: 1.5%;
+  margin-left: 2.5rem;
   margin-top: 0%;
 }
 
@@ -356,3 +367,128 @@ body.dark{
   left: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons i {
+  position: relative;
+  text-align: center;
+  background-color: #212121;
+  color: #078a9c;
+  width: 5rem;
+  aspect-ratio: 1;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.linkk {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: -2;
+}
+
+
+.con {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 5rem;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.con.dark {
+  color: #078a9c;
+}
+
+.em {
+  font-size: 1.5rem;
+  margin-top: -0rem;
+  color: #000000;
+}
+
+.em.dark {
+  color: #ddd;
+  transition: 1s;
+}
+
+#mail {
+  font-size: 2rem;
+}
+
+.ved {
+  margin-top: -1rem;
+  color: #078a9c;
+}
+
+#githubb {
+  margin-left: 0rem;
+  font-size: 2rem;
+}
+
+.gitt {
+  font-size: 1.5rem;
+  margin-top: -0rem;
+  color: #000000;
+}
+
+.huu {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 2rem;
+}
+
+.hub {
+  margin-top: -1rem;
+  color: #078a9c;
+}

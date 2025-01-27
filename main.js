@@ -3,6 +3,9 @@ let body = document.querySelector('body')
 let dado = document.getElementById('dados')
 let front = document.getElementById('front')
 let tec = document.getElementById('tec')
+let con = document.getElementById('Contato')
+let linguagens = document.getElementById('linguagens')
+let email = document.getElementById('imail')
 
 
 lua.addEventListener('click', ()=>{
@@ -10,6 +13,9 @@ lua.addEventListener('click', ()=>{
     dado.classList.toggle('dark')
     front.classList.toggle('dark')
     tec.classList.toggle('dark')
+    con.classList.toggle('dark')
+    linguagens.classList.toggle('dark')
+    email.classList.toggle('dark')
     console.log('Clique detectado!');
     if (lua.classList.contains('fa-moon')) {
         lua.classList.remove('fa-moon');

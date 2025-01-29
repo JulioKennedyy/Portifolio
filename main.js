@@ -6,6 +6,8 @@ let tec = document.getElementById('tec')
 let con = document.getElementById('Contato')
 let linguagens = document.getElementById('linguagens')
 let email = document.getElementById('imail')
+let github = document.getElementById('git')
+let linkedin = document.getElementById('lin')
 
 
 lua.addEventListener('click', ()=>{
@@ -16,6 +18,8 @@ lua.addEventListener('click', ()=>{
     con.classList.toggle('dark')
     linguagens.classList.toggle('dark')
     email.classList.toggle('dark')
+    github.classList.toggle('dark')
+    linkedin.classList.toggle('dark')
     console.log('Clique detectado!');
     if (lua.classList.contains('fa-moon')) {
         lua.classList.remove('fa-moon');

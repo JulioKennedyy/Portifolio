@@ -430,7 +430,7 @@ body.dark{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin-right: 2rem;
   padding: -2;
 }
 
@@ -477,7 +477,37 @@ body.dark{
   color: #000000;
 }
 
+.gitt.dark {
+  color: #ddd;
+  transition: 1s;
+}
+
 .huu {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-left: -1rem;
+}
+
+.hub {
+  margin-top: -1rem;
+  color: #078a9c;
+}
+
+#githubb {
+  color: #ddd;
+}
+
+#zin {
+  margin-left: 0rem;
+  font-size: 2rem;
+}
+
+.linkzin {
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -488,7 +518,18 @@ body.dark{
   margin-left: 2rem;
 }
 
-.hub {
+.linn {
+  font-size: 1.5rem;
+  margin-top: -0rem;
+  color: #000000;
+}
+
+.kedin {
   margin-top: -1rem;
   color: #078a9c;
+}
+
+.linn.dark {
+  color: #ddd;
+  transition: 1s;
 }

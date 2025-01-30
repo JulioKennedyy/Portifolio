@@ -396,7 +396,7 @@ body.dark{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 2rem;
+  margin-right: 6rem;
   padding: -2;
 }
 
@@ -456,7 +456,7 @@ body.dark{
   justify-content: center;
   margin: 0;
   padding: 0;
-  margin-left: -1rem;
+  margin-left: -5rem;
 }
 
 .hub {

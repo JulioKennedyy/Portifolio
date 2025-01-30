@@ -367,40 +367,6 @@ body.dark{
   left: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .icons {
   display: flex;
   flex-direction: row;
@@ -532,4 +498,15 @@ body.dark{
 .linn.dark {
   color: #ddd;
   transition: 1s;
+}
+
+.pro {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 5rem;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.pro.dark {
+  color: #078a9c;
 }
